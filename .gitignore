@@ -1,5 +1,4 @@
-corpus_html/
-*.html
+
 __pycache__/
 *.pyc
 .env
