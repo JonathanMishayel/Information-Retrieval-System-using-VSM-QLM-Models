@@ -55,6 +55,17 @@ P(t∣D)= (TF(t,D) + 1 / ∣D∣ ​+ |V|​
 Documents are ranked based on log-likelihood scores of generating the query.
 
 ----
+## Dataset Notice
+
+The original crawled HTML corpus is not included in this repository 
+due to size and copyright considerations.
+
+To regenerate the corpus, run:
+```text
+python crawler.py
+````
+
+----
 ## Web Application
 
 The Streamlit application provides:
